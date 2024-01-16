@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="Images/logo.png"></a>
+        <div class="search-box">
+            <img src="Images/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="Images/home.png"> <span>Home</span></a></li>
+            <li><a href="#"><img src="Images/network.png"> <span>My Network</span></a></li>
+            <li><a href="#"><img src="Images/jobs.png"> <span>Jobs</span></a></li>
+            <li><a href="#"><img src="Images/apply.png"> <span>Applies</span></a></li>
+            <li><a href="#"><img src="Images/message.png"> <span>Messages</span></a></li>
+            <li><a href="#"><img src="Images/notification.png"> <span>Notifications</span></a></li>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <div class="online">
+            <img src="Images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+        </div>
+    </div>
+ <!-- -----------profile-drop-down-menu--------- -->
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="Images/user-1.png">
+            <div>                               
+                <h3>Hardin</h3>
+                <a href="profile.html">See your profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/feedback.png">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/setting.png">
+            <p>Setting & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/help.png">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/display.png">
+            <p>Display & Accessibility</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="Images/logout.png">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+</nav> 
+<!-- -------------navbar close------------ -->  
+<div class="container">
+     <!-- -------------left-sidbar------------ -->  
+    <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+            <img src="Images/cover-pic.png" width="100%">
+            <div class="sidebar-profile-info">
+                <img src="Images/user-1.png">
+                <h1>Hardin</h1>
+                <h3>Web Developer at Zoho</h3>
+                <ul>
+                    <li>Your Profile Views<span>52</span></li>
+                    <li>Your Post Views<span>178</span></li>
+                    <li>Your Connections<span>95</span></li>
+                </ul>
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#" ><img src="images/items.png"> My Items</a>
+                <a href="#"><img src="images/premium.png"> Try Premium</a>
+            </div>
+        </div>
+        <div class="sidebar-activity">
+            <h3>RECENT</h3>
+            <a href="#"><img src="images/recent.png">Web Development</a>
+            <a href="#"><img src="images/recent.png">User Interface</a>
+            <a href="#"><img src="images/recent.png">Online Learning</a>
+            <a href="#"><img src="images/recent.png">Learn Python</a>
+            <a href="#"><img src="images/recent.png">Code Better</a>
+            <a href="#"><img src="images/recent.png">Group Learning</a>
+            <h3>GROUPS</h3>
+            <a href="#"><img src="images/group.png">Web Design Group</a>
+            <a href="#"><img src="images/group.png">HTML & CSS Learners</a>
+            <a href="#"><img src="images/group.png">Python & Javascript Group</a>
+            <a href="#"><img src="images/group.png">Learn Coding Online</a>
+            <h3>HASHTAG</h3>
+            <a href="#"><img src="images/hashtag.png">Web Development</a>
+            <a href="#"><img src="images/hashtag.png">User Interface</a>
+            <a href="#"><img src="images/hashtag.png">Online Learning</a>
+            <div class="discover-more-link">
+                <a href="#">Discover More</a>
+            </div>   
+        </div>
+    </div>
+    <!-- -------------main-content close------------ -->
+    <div class="main-content">
+        <div class="create-post">
+            <div class="create-post-input">
+                <img src="Images/user-1.png">
+                <textarea rows="2" placeholder="Write a post"></textarea>
+            </div>
+            <div class="create-post-links">
+                <li><img src="Images/photo.png">Photo</li>
+                <li><img src="Images/video.png">Video</li>
+                <li><img src="Images/event.png">Event</li>
+                <li>Post</li>
+            </div>
+        </div>
+        <div class="sort-by">
+            <hr>
+            <p>Sort by: <span>top<img src="images/down-arrow.png"></span></p>
+        </div>
+        <div class="post">
+            <div class="post-author">
+                <img src="Images/user-2.png">
+                <div>
+                    <h1>Sam John</h1>
+                    <small>Founder and CEO at Leopard Groups |Angel Investor</small>
+                    <small>2 Hours ago</small>
+
+                </div>
+            </div>
+            <p>The success of every websites depends on search engine optimization and dogotal marketing strategy.
+                If you are on first page of all major search engines then you are ahead among ypur competitors.
+            </p>
+            <img src="Images/post-image-4.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="Images/thumbsup.png">
+                    <img src="Images/love.png">
+                    <img src="Images/clap.png">
+                    <span class="liked-user">Gowtham and 80 others</span>
+                </div>                
+                <div>
+                    <span>40 comments &middot; 50 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="Images/user-1.png" class="post-activity-user-icon">
+                    <img src="Images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-author">
+                <img src="Images/user-3.png">
+                <div>
+                    <h1>Jenni Smith</h1>
+                    <small>Founder and CEO at Leopard Groups |Angel Investor</small>
+                    <small>2 Hours ago</small>
+
+                </div>
+            </div>
+            <p>The success of every websites depends on search engine optimization and dogotal marketing strategy.
+                If you are on first page of all major search engines then you are ahead among ypur competitors.
+            </p>
+            <img src="Images/post-image-1.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="Images/thumbsup.png">
+                    <img src="Images/love.png">
+                    <img src="Images/clap.png">
+                    <span class="liked-user">Gowtham and 80 others</span>
+                </div>                
+                <div>
+                    <span>40 comments &middot; 50 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="Images/user-1.png" class="post-activity-user-icon">
+                    <img src="Images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-author">
+                <img src="Images/user-5.png">
+                <div>
+                    <h1>Peter Parker</h1>
+                    <small>Founder and CEO at Leopard Groups |Angel Investor</small>
+                    <small>2 Hours ago</small>
+
+                </div>
+            </div>
+            <p>The success of every websites depends on search engine optimization and dogotal marketing strategy.
+                If you are on first page of all major search engines then you are ahead among ypur competitors.
+            </p>
+            <img src="Images/post-image-3.png" width="100%">
+
+            <div class="post-stats">
+                <div>
+                    <img src="Images/thumbsup.png">
+                    <img src="Images/love.png">
+                    <img src="Images/clap.png">
+                    <span class="liked-user">Gowtham and 80 others</span>
+                </div>                
+                <div>
+                    <span>40 comments &middot; 50 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="Images/user-1.png" class="post-activity-user-icon">
+                    <img src="Images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="Images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------right-sidebar ------------ --> 
+    <div class="right-sidebar">
+        <div class="sidebar-news">
+            <img src="Images/more.png" class="info-icon">
+            <h3>Trending News</h3>
+            <a href="#">High demand for full stack Developer</a>
+            <span>1d aga &middot; 12,789 readers</span>
+    
+            <a href="#">Carrers growing horizontally too</a>
+            <span>10h aga &middot; 22,675 readers</span>
+                
+            <a href="#">Less work for US,more for UK</a>
+            <span>1d aga &middot; 9,729 readers</span>
+                
+            <a href="#">TCS is hiring freshers now </a>
+            <span>14h aga &middot; 18,289 readers</span>
+
+            <a href="#">More hiring = higher confidencce? </a>
+            <span>4h aga &middot; 8,287 readers</span>
+
+
+            <a href="#" class="read-more-link">Read More</a>
+        </div>
+
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Master the 5 principles of web design</p>
+            <div>
+                <img src="Images/user-1.png">
+                <img src="Images/mi-logo.png">
+            </div>
+            <b> Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-useful-link">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the app</a>
+            <a href="#">More</a>   
+
+            <div class="copyright-msg">
+                <img src="Images/logo.png">
+                <p>Linkedup &#169; 2023.All right reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+</div>
+<script>
+    let profilleMenu=document.getElementById("profileMenu");
+
+    function toggleMenu(){
+        profilleMenu.classList.toggle("open-menu");
+    }
+</script>
+</body>
+</html>
