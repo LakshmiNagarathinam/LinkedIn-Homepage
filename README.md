@@ -1,2 +1,2 @@
 # LinkedIn-Homepage
-LinkedIn Created with HTML,CSS and Javascript
+LinkedIn Homepage Created with HTML,CSS and Javascript
